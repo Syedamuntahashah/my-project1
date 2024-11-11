@@ -1,0 +1,250 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  body {
+    background-image: url('/images/images.jpg'); 
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    color: #fff;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  header nav a {
+    color: #5e5c5c;
+    font-size: 10px;
+  }
+  
+  header nav a:hover {
+    color: #3498db;
+  }
+  
+  
+  .hero-section {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-style: italic;
+    color: #000000;
+    font-weight: 300;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+    text-decoration: #333;
+    color: #666;
+    text-shadow: #ccc;
+  }
+  
+  .hero-text h2 {
+    font-size: 7rem;
+    margin-bottom: 20px;
+    text-decoration: #666;
+    text-align: center;
+  }
+  
+  .hero-text p {
+    font-size: 12px;
+    color: #11111166;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    padding: 0 ;
+    width: 250px;
+    height: 250px;
+    border: 10px solid #666;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .about-section {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(1, 0, 0, 0.3);
+    margin: 10px;
+  }
+  
+  .about-section h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    color: #d1c7d1;
+    font-weight: 800;
+    font-style: inherit;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    color: #d1c7d1;
+    max-width: 800px;
+    margin: 0 auto;
+    font-style: italic;
+  }
+  
+  
+  .projects-section {
+    padding: 40px 20px;
+    text-align: center;
+    text-decoration: solid;
+  }
+  
+  .projects-section h2 {
+    font-display: black;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-style: inherit;
+    color: #524f52;
+    font-weight: 700;
+  }
+  
+  .projects-section .project {
+    background-color: #faf7f7;
+    background-color: rgba(1, 0, 0, 0.3);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects-section .project h3 {
+    font-size: 1.5rem;
+    color: #c0bfbf;
+  }
+  
+  .projects-section .project p {
+    font-size: 1rem;
+    text-shadow: #000000;
+    color: #070606;
+    margin: 10px 0;
+  }
+  
+  .projects-section .project a {
+    text-decoration: none;
+    color: #302f30;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .projects-section .project a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-section {
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #807181;
+    font-weight: 600;
+  }
+  
+  .contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    border-color: #666;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #818080;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+  }
+  
+  .contact-section button {
+    padding: 12px 30px;
+    background-color: #828485;
+    color: rgb(172, 170, 170);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .contact-section button:hover {
+    background-color: #2980b9;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;;
+    }
+  
+    .hero-text h2 {
+      font-size: 2.5rem;
+    }
+  
+    .profile-image {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .projects-section {
+      padding: 40px 20px;
+    }
+  
+    .projects-section .project {
+      padding: 15px;
+      margin: 10px;
+    }
+  }
+  
