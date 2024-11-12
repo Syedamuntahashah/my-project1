@@ -10,6 +10,7 @@ const Hero = () => {
             src="/images/profile.jpeg"  
             alt="Profile Picture"
             className="profile-image"
+            width={200} height={200}
             />
         </div>
         <div className="text-section">
